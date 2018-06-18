@@ -1,19 +1,3 @@
-@font-face {
-    font-family: 'SF';
-    font-style: normal;
-    font-weight: 500;
-    src: url("sf-medium.woff2") format("woff2"), url("sf-light.woff") format("woff"), url("sf-light.ttf") format("truetype");
-}
-
-@font-face {
-    font-family: 'SF';
-    font-style: normal;
-    font-weight: 700;
-    src: url("sf-bold.woff2") format("woff2"), url("sf-bold.woff") format("woff"), url("sf-bold.ttf") format("truetype");
-}
-
-
-
 * {
     padding: 0px;
     margin: 0px;
@@ -21,7 +5,7 @@
 }
 
 body {
-    font-family: "SF","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-family: "Helvetica Neue","Helvetica","Arial",sans-serif;
 }
 
 a {
@@ -29,12 +13,12 @@ a {
     text-decoration: none;
 }
 
-h1.title {
+.title {
     margin-bottom: 24px;
     font-size: 35px;
 }
 
-h1.title::before {
+.title::before {
     display: inline-block;
     width: 34px;
     height: 34px;
@@ -43,11 +27,11 @@ h1.title::before {
     background: url(dog.png) no-repeat 100%/100%;
 }
 
-h3.main {
+.main {
     font-size: 1.17em;
 }
 
-h6.footer {
+.footer {
     font-size: 8px;
     font-weight: 500;
     color: #444;
