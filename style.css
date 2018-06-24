@@ -16,7 +16,6 @@ a {
 .title {
     margin-bottom: 24px;
     font-size: 35px;
-    letter-spacing: -1px;
 }
 
 .title::before {
@@ -30,7 +29,6 @@ a {
 
 .main {
     font-size: 1.17em;
-    letter-spacing: -0.5px;
 }
 
 .footer {
