@@ -46,10 +46,3 @@ a {
     -moz-transform: translate(-50%, -40%);
     -ms-transform: translate(-50%, -40%);
 }
-
-#pos-right {
-    text-align: right;
-    bottom: 2px;
-    right: 4px;
-    position: absolute;
-}
