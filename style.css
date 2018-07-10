@@ -39,10 +39,10 @@ a {
 
 #pos-center {
     left: 50%;
-    top: 40%;
+    top: 45%;
     position: absolute;
-    transform: translate(-50%, -40%);
-    -webkit-transform: translate(-50%, -40%);
-    -moz-transform: translate(-50%, -40%);
-    -ms-transform: translate(-50%, -40%);
+    transform: translate(-50%, -45%);
+    -webkit-transform: translate(-50%, -45%);
+    -moz-transform: translate(-50%, -45%);
+    -ms-transform: translate(-50%, -45%);
 }
