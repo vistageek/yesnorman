@@ -6,6 +6,7 @@
 
 body {
     font-family: -apple-system, system-ui, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
 }
 
 a {
@@ -29,12 +30,6 @@ a {
 
 .main {
     font-size: 1.17em;
-}
-
-.footer {
-    font-size: 8px;
-    font-weight: 500;
-    color: #444;
 }
 
 #pos-center {
