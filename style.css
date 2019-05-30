@@ -10,32 +10,25 @@ body {
 }
 
 a {
-  color: #A27531;
+  color: #A57556;
   text-decoration: none;
 }
 
-.title {
-  margin-bottom: 24px;
-  font-size: 35px;
-}
-
-.title::before {
-  display: inline-block;
-  width: 34px;
-  height: 34px;
-  margin: 0px 9px -5px 0px;
-  content: "";
-  background: url(dog.png) no-repeat 100%/100%;
+.logo {
+  margin: 0 auto;
+  padding-bottom: 1.1em;
+  max-width: 350px;
 }
 
 .main {
   font-size: 1.17em;
+  font-weight: bold;
 }
 
-#pos-center {
+.center {
+  position: absolute;
   left: 50%;
   top: 40%;
-  position: absolute;
   transform: translate(-50%, -40%);
   -webkit-transform: translate(-50%, -40%);
 }
