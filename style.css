@@ -32,14 +32,3 @@ a {
   transform: translate(-50%, -40%);
   -webkit-transform: translate(-50%, -40%);
 }
-
-.link {
-  display: block;
-  margin-top: 40px;
-  text-align: center;
-  color: #a55656;
-}
-
-.link:hover {
-  text-decoration: underline;
-}
