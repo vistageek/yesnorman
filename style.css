@@ -28,6 +28,7 @@ main {
 }
 
 .logo {
-  margin: 0 auto 1em;
+  display: block;
   width: 340px;
+  margin: 0 auto 1em;
 }
