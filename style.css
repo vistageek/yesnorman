@@ -30,6 +30,6 @@ main {
 .logo {
   display: block;
   width: 340px;
-  height: 92px;
+  height: auto;
   margin: 0 auto 1em;
 }
